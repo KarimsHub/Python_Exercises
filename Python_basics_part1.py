@@ -99,13 +99,34 @@
 #11. Write a Python program to calculate number of days between two dates.
 #Sample dates : (2014, 7, 2), (2014, 7, 11)
 #Expected output : 9 days
-from dateutil import parser
-from datetime import date
+#from dateutil import parser
+#from datetime import date
+#
+#def calculate_days():
+#    date1 = parser.parse(input("Enter first date: "))
+#    date2 = parser.parse(input("Enter second date: "))
+#    delta = date2 - date1
+#    print(delta.days)
+#
+#calculate_days()
 
-def calculate_days():
-    date1 = parser.parse(input("Enter first date: "))
-    date2 = parser.parse(input("Enter second date: "))
-    delta = date2 - date1
-    print(delta.days)
+#12. Write a Python program to get the difference between a given number and 17, if the number is greater than 17 return double the absolute difference.
 
-calculate_days()
+#def difference_number(n):
+#    if n <= 17:
+#        return 17 - n 
+#    else:
+#        return (n - 17) * 2
+#
+#print(difference_number(14))
+
+# 13. Write a Python program to test whether a number is within 100 of 1000 or 2000.
+
+#def number_within(n):
+#    if (abs((1000 - n) < 100) or abs((2000 - n) < 100)):
+#        return True
+#    else:
+#        return False
+#
+#print(number_within(990))
+
