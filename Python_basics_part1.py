@@ -86,9 +86,26 @@
 #    three = int('%s%s%s' % (n,n,n))
 #    print(one + two + three)
 
+# 10. Write a Python program to print the calendar of a given month and year.
+#import calendar
+#
+#def display_calender():
+#    yy = int(input('Please insert in a year: '))
+#    mm = int(input('Please insert in a month: '))
+#    print(calendar.month(yy, mm))
+#
+#display_calender()
 
+#11. Write a Python program to calculate number of days between two dates.
+#Sample dates : (2014, 7, 2), (2014, 7, 11)
+#Expected output : 9 days
+from dateutil import parser
+from datetime import date
 
+def calculate_days():
+    date1 = parser.parse(input("Enter first date: "))
+    date2 = parser.parse(input("Enter second date: "))
+    delta = date2 - date1
+    print(delta.days)
 
-
-
-
+calculate_days()
