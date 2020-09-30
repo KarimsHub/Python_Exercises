@@ -151,4 +151,25 @@
 #
 #print(change_string('example string'))
 
+#20. Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+
+#def string_copies(n, string):
+#    lagerstring = ''
+#    for i in string:
+#        lagerstring += i
+#    return lagerstring * n
+#
+#print(string_copies(2, 'hello'))
+
+#21. Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
+
+#def even_odd():
+#    user_input = int(input('Please insert a number: '))
+#    if user_input % 2 == 0:
+#        return('The given number is even')
+#    else:
+#        return('The given number is odd')
+#
+#print(even_odd())
+
 
