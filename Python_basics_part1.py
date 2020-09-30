@@ -120,7 +120,7 @@
 #
 #print(difference_number(14))
 
-# 13. Write a Python program to test whether a number is within 100 of 1000 or 2000.
+#13. Write a Python program to test whether a number is within 100 of 1000 or 2000.
 
 #def number_within(n):
 #    if (abs((1000 - n) < 100) or abs((2000 - n) < 100)):
@@ -129,4 +129,26 @@
 #        return False
 #
 #print(number_within(990))
+
+#14. Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum.
+
+#def sum_three_numbers(one, two, three):
+#    if one == two == three:
+#        return (one + two + three) * 3
+#    else:
+#        return (one + two + three)
+#
+#print(sum_three_numbers(7, 7, 7))
+
+#19. Write a Python program to get a new string from a given string where "Is" has been added to the front. 
+#If the given string already begins with "Is" then return the string unchanged
+
+#def change_string(string):
+#    if string[:2] == 'Is':
+#        return string
+#    else:
+#        return 'Is ' + string
+#
+#print(change_string('example string'))
+
 
