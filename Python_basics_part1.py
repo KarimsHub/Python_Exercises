@@ -140,7 +140,7 @@
 #
 #print(sum_three_numbers(7, 7, 7))
 
-#19. Write a Python program to get a new string from a given string where "Is" has been added to the front. 
+#15. Write a Python program to get a new string from a given string where "Is" has been added to the front. 
 #If the given string already begins with "Is" then return the string unchanged
 
 #def change_string(string):
@@ -151,7 +151,7 @@
 #
 #print(change_string('example string'))
 
-#20. Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+#16. Write a Python program to get a string which is n (non-negative integer) copies of a given string.
 
 #def string_copies(n, string):
 #    lagerstring = ''
@@ -161,7 +161,7 @@
 #
 #print(string_copies(2, 'hello'))
 
-#21. Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
+#17. Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
 
 #def even_odd():
 #    user_input = int(input('Please insert a number: '))
@@ -172,7 +172,7 @@
 #
 #print(even_odd())
 
-#22. Write a Python program to count the number 4 in a given list.
+#18. Write a Python program to count the number 4 in a given list.
 
 #def counting_number(liste):
 #    count = 0
@@ -183,7 +183,7 @@
 #
 #print(counting_number([3, 7, 12, 4, 6, 4]))
 
-#23. Write a Python program to get the n (non-negative integer) copies of the first 2 characters of a given string. 
+#19. Write a Python program to get the n (non-negative integer) copies of the first 2 characters of a given string. 
 #Return the n copies of the whole string if the length is less than 2.
 
 #def n_copies(n, string):
@@ -193,3 +193,14 @@
 #        return n * string[:2]
 #
 #print(n_copies(4, 'h'))
+
+#20. Write a Python program to test whether a passed letter is a vowel or not.
+
+def check_vowel(letter):
+    vowels = 'aeiou'
+    if letter in vowels:
+        return 'This letter is a vowel'
+    else:
+        return 'This letter is not a vowel'
+
+print(check_vowel('b'))
