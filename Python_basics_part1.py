@@ -172,4 +172,24 @@
 #
 #print(even_odd())
 
+#22. Write a Python program to count the number 4 in a given list.
 
+#def counting_number(liste):
+#    count = 0
+#    for i in liste:
+#        if i == 4:
+#            count += 1
+#    return count
+#
+#print(counting_number([3, 7, 12, 4, 6, 4]))
+
+#23. Write a Python program to get the n (non-negative integer) copies of the first 2 characters of a given string. 
+#Return the n copies of the whole string if the length is less than 2.
+
+#def n_copies(n, string):
+#    if len(string) < 2:
+#        return n * string
+#    else:
+#        return n * string[:2]
+#
+#print(n_copies(4, 'h'))
