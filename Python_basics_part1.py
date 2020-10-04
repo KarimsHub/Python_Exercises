@@ -196,11 +196,42 @@
 
 #20. Write a Python program to test whether a passed letter is a vowel or not.
 
-def check_vowel(letter):
-    vowels = 'aeiou'
-    if letter in vowels:
-        return 'This letter is a vowel'
-    else:
-        return 'This letter is not a vowel'
+#def check_vowel(letter):
+#    vowels = 'aeiou'
+#    if letter in vowels:
+#        return 'This letter is a vowel'
+#    else:
+#        return 'This letter is not a vowel'
+#
+#print(check_vowel('b'))
 
-print(check_vowel('b'))
+#21. Write a Python program to check whether a specified value is contained in a group of values.
+#Test Data :
+#3 -> [1, 5, 8, 3] : True
+#-1 -> [1, 5, 8, 3] : False
+
+#list1 = [1, 5, 8, 3]
+#list2 = [1, 5, 8, 3]
+#
+#def check_number_in_list(n, liste):
+#    for i in liste:
+#        if i == n:
+#            return True
+#    else:
+#        return False
+#
+#print(check_number_in_list(-1, list2))
+
+#22. Write a Python program to concatenate all elements in a list into a string and return it.
+#new_list = ['hello', 'world', 'cool', 1]
+#
+#def concatenate_list(liste):
+#    new_string = ''
+#    for i in liste:
+#        new_string += str(i)
+#    return new_string
+#
+#print(concatenate_list(new_list))
+
+
+
