@@ -233,5 +233,33 @@
 #
 #print(concatenate_list(new_list))
 
+#23. Write a Python program to print all even numbers from a given numbers list in the same order and stop the printing if any numbers that come after 237 in the sequence.
+#Sample numbers list :
 
+#numbers = [    
+#    386, 462, 47, 418, 907, 344, 236, 375, 823, 566, 597, 978, 328, 615, 953, 345, 
+#    399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217, 
+#    815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717, 
+#    958,743, 527
+#    ]
+#
+#def printing_even_numbers(liste):
+#    for i in liste:
+#        if i % 2 == 0:
+#            print(i)
+#        elif i == 237:
+#            break
+#
+#printing_even_numbers(numbers)
 
+#24. Write a Python program to print out a set containing all the colors from color_list_1 which are not present in color_list_2.
+#Test Data :
+#color_list_1 = set(["White", "Black", "Red"])
+#color_list_2 = set(["Red", "Green"])
+#Expected Output :
+#{'Black', 'White'}
+
+#def comparing_lists(list1, list2):
+#    return list1.difference(list2) # The difference() method returns the set difference of two sets.
+#
+#print(comparing_lists(color_list_1, color_list_2))
