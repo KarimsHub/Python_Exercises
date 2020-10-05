@@ -263,3 +263,23 @@
 #    return list1.difference(list2) # The difference() method returns the set difference of two sets.
 #
 #print(comparing_lists(color_list_1, color_list_2))
+
+#25. Write a Python program that will accept the base and height of a triangle and compute the area.
+
+#def area_of_triangle():
+#    base = float(input('Plase insert the base: '))
+#    height = float(input('Please insert the height: '))
+#    area = (base * height) / 2
+#    return 'The area of the triangle is %s' % area
+#
+#print(area_of_triangle())
+
+#26. Write a Python program to compute the greatest common divisor (GCD) of two positive integers.
+
+#def compute_gcd(number1, number2):
+#    if number2 == 0:
+#        return number1
+#    else:
+#        return compute_gcd(number2, number1 % number2) #using recursion
+#
+#print(compute_gcd(48, 18))
