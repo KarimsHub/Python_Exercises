@@ -283,3 +283,21 @@
 #        return compute_gcd(number2, number1 % number2) #using recursion
 #
 #print(compute_gcd(48, 18))
+
+#27. Write a Python program to get the least common multiple (LCM) of two positive integers.
+
+#def compute_lcm(number1, number2):
+#    if number1 > number2:
+#        higher = number1
+#    else:
+#        higher = number2
+#    value = higher
+#    
+#    while True:
+#        if higher % number1 == 0 and higher % number2 == 0:
+#            return higher
+#            break
+#        else:
+#            higher = higher + value
+#
+#print(compute_lcm(2, 3))
