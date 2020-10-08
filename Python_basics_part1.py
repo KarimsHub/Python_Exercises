@@ -328,3 +328,23 @@
 #        return result
 #
 #print(sum_integers(5, 14))  
+
+#30. Write a Python program that will return true if the two given integer values are equal or their sum or difference is 5.
+
+#def check_intvalues(one, two):
+#    if one is two or one + two == 5 or abs(one - two) == 5:
+#        return True
+#    else:
+#        return False
+#
+#print(check_intvalues(2, 7))
+
+#31. Write a Python program to add two objects if both objects are an integer type.
+
+#def add_int(one, two):
+#    if not (isinstance(one, int) and isinstance(two, int)): #The isinstance() function returns True if the specified object is of the specified type, otherwise False.
+#        return 'no integer value'
+#    else:
+#        return one + two
+#
+#print(add_int(5, 7))
