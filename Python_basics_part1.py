@@ -348,3 +348,20 @@
 #        return one + two
 #
 #print(add_int(5, 7))
+
+#32. Write a Python program to display your details like name, age, address in three different lines.
+
+#def details_differentline(name, age, adress):
+#    print('%s\n%d\n%s' % (name, age, adress))
+#
+#details_differentline('karim', 12, 'kottwitz')
+
+#33. Write a Python program to solve (x + y) * (x + y).
+#Test Data : x = 4, y = 3
+#Expected Output : (4 + 3) ^ 2) = 49
+
+#def solve(x, y):
+#    result = (x + y) * (x + y)
+#    return '(%d + %d) * 2 = %d' % (x, y, result)
+#
+#print(solve(4, 3))
