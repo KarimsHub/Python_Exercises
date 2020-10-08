@@ -301,3 +301,30 @@
 #            higher = higher + value
 #
 #print(compute_lcm(2, 3))
+
+#28. Write a Python program to sum of three given integers. However, if two values are equal sum will be zero.
+
+#def sum_three_numbers_part_two(one, two, three):
+#    if one == two or one == three or two == three:
+#        return 0
+#    else:
+#        return one + two + three
+
+#29. Write a Python program to sum of two given integers. However, if the sum is between 15 to 20 it will return 20.
+
+#def sum_integers(one, two):
+#    result = one + two
+#    if result > 15 and result <= 20:
+#        return 20
+#    else:
+#        return result
+#
+#better approach:
+#def sum_integers(one, two):
+#    result = one + two
+#    if result in range(15, 20):
+#        return 20
+#    else:
+#        return result
+#
+#print(sum_integers(5, 14))  
