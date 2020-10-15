@@ -365,3 +365,27 @@
 #    return '(%d + %d) * 2 = %d' % (x, y, result)
 #
 #print(solve(4, 3))
+
+#34. Write a Python program to compute the future value of a specified principal amount, rate of interest, and a number of years.
+#Test Data : amt = 10000, int = 3.5, years = 7
+#Expected Output : 12722.79
+
+#def interest_rate(money, rate, years):
+#    decimal_rate = rate / 100
+#    for i in range(years):
+#        result = money * decimal_rate
+#        money += result
+#    return money
+#
+#print(interest_rate(10000, 3.5, 7))
+
+#35. Write a Python program to check whether a file exists.
+
+#def check_file():
+#    import os.path
+#    open('example.docx', 'r')
+#    print(os.path.isfile('example.docx'))
+#
+#check_file()
+
+
