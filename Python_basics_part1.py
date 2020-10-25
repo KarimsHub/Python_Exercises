@@ -388,4 +388,20 @@
 #
 #check_file()
 
+#36. Write a Python program to get OS name, platform and release information.
+#import os
+#
+#def get_os():
+#    os_info = os.uname()
+#    print(os_info)
+#
+#get_os()
 
+#37. Write a Python to find local IP addresses using Python's stdlib
+#import socket
+#def get_local_ip():
+#    hostname = socket.gethostname()
+#    ipadress = socket.gethostbyname(hostname)
+#    print(ipadress)
+#
+#get_local_ip()
